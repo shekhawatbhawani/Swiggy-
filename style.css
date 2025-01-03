@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav img{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.card{
+    padding: 10px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 220px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+}
+.content{
+    padding: 5px 10px;
+}
+
+.card p{
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.filter-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 0px 20px;
+
+}
+input[type='text']{
+    height: 30px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+select {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+  option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  .btn-login{
+    font-size: 25px;
+    padding: 0px 15px;
+    border: none;
+    background:none;
+    color: white;
+ 
+  }
+
+  .top-restaurant{
+    margin: 30px 10px 0px 80px;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 70px;
+  }
+  .cards img{
+    width: 100px;
+  }
+
