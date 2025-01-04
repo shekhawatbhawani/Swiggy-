@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Nav styling  */
 nav{
     background-color: black;
     color: black;
@@ -26,18 +27,17 @@ nav ul{
     justify-content: space-between;
     /* gap: 30px; */
 }
-
 .all-cards{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
-    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+    margin: 20px auto;
 }
-
-.card{
+.card {
     padding: 10px;
-    margin: 20px 30px;
+    /* margin: 0px 200px; */
     border-radius: 10px;
     transition: transform 0.3s ease;
     text-align: center;
@@ -45,24 +45,26 @@ nav ul{
     width: 220px;
     font-family: 'Courier New', Courier, monospace;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.1);
 }
-.card img{
+
+.card img {
     border-radius: 10px;
     height: 150px;
     width: 100%;
 }
-.content{
+
+.content {
     padding: 5px 10px;
 }
 
-.card p{
+.card p {
     text-wrap: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .top-btn{
     background-color: black;
     color: white;
@@ -118,13 +120,89 @@ select {
     margin: 30px 10px 0px 80px;
   }
 
-  .cards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  .img_card{
+    width: 80%;
+    margin: 20px auto;
     padding: 10px 70px;
   }
-  .cards img{
+  .img_card img{
     width: 100px;
   }
 
+/* shimmer ui styling */
+
+
+   /* .shimmer-card {
+      position: relative;
+      -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+      background-color: #FFF;
+      border-radius: 6px;
+      height: 500px;
+      overflow: hidden;
+      width: 350px;
+      margin: 40px auto;
+    
+    .shimmerBG {
+      animation-duration: 2.2s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-name: shimmer;
+      animation-timing-function: linear;
+      background: #ddd;
+      background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+      background-size: 1200px 100%;
+  }
+  
+  
+  @-webkit-keyframes shimmer {
+      0% {
+          background-position: -100% 0;
+      }
+      100% {
+          background-position: 100% 0;
+      }
+  }
+  
+  @keyframes shimmer {
+      0% {
+          background-position: -1200px 0;
+      }
+      100% {
+          background-position: 1200px 0;
+      }
+  }
+    
+      .media {
+      height: 200px;
+  }
+  
+  .p-32 {
+      padding: 32px;
+  }
+  
+  .title-line {
+      height: 24px;
+      width: 100%;
+      margin-bottom: 12px;
+      border-radius: 20px;
+  }
+  
+  .content-line {
+      height: 8px;
+      width: 100%;
+      margin-bottom: 16px;
+      border-radius: 8px;
+  }
+    
+    .end {
+        width: 40%;
+      }
+  
+  }
+  
+  
+  .m-t-24 {
+      margin-top: 24px;
+  } 
+ */
